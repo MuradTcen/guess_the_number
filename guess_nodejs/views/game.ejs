@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>What's your number?</title>
+	<link href="/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+	<header class="container">
+		<div class="row">
+			<h1 class="col-sm-8">Guess The Number</h1>
+		</div>
+	</header>
+	<section class="jumbotron">
+		<div class="container">
+			<div class="row text-center">
+				<h3>Pick a number between 1 and 100.<br>
+				You will have 7 turns.
+				<form action="number" method="POST">
+					<input class="text input" type="text" id="sub" name="answer" autofocus>
+					<input class="btn btn-primary" type="submit" value="Guess?">
+				</form><br>
+				<label for="title"><%= result%></label><br>
+				<!-- <label for="title"><%= result%></label><br> -->
+				</h3>
+    		</div>
+		</div>
+	</section>
+</body>
+</html>

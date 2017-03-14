@@ -1,0 +1,36 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('/css/images/2.jpg');
+  background-size: cover;
+  /*color: #000000;*/
+  height: 50em;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.text input {
+  color: #ffffff;
+}
+
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
