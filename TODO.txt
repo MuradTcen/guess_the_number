@@ -1,0 +1,2 @@
+CGI, Javascript, php
+сайт угадай число
